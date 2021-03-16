@@ -1,0 +1,28 @@
+div{
+  background-color: white;
+}
+
+#myClock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    color: blue;
+    font-size: 100px;
+    font-family: "Audiowide", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  #myClock {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #myClock {
+    font-size: 40px;
+  }
+}
